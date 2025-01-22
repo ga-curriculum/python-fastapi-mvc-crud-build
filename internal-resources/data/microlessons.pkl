@@ -9,23 +9,45 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+createTheServer = new Template.Microlesson {
+  friendlyName = "Create the Server"
+  dirName = "create-the-server"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+dataModelsAndControllers = new Template.Microlesson {
+  friendlyName = "Data Models and Controllers"
+  dirName = "data-models-and-controllers"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+mountingTheFastAPI = new Template.Microlesson {
+  friendlyName = "Mounting the FastAPI Router"
+  dirName = "mounting-the-fastapi-router"
   type = "Content"
   videoUrl = ""
 }
+
+createRoute = new Template.Microlesson {
+  friendlyName = "Create Route"
+  dirName = "create-route"
+  type = "Content"
+  videoUrl = ""
+}
+
+updateRoute = new Template.Microlesson {
+  friendlyName = "Update Route"
+  dirName = "update-route"
+  type = "Content"
+  videoUrl = ""
+}
+
+deleteRoute = new Template.Microlesson {
+  friendlyName = "Delete Route"
+  dirName = "delete-route"
+  type = "Content"
+  videoUrl = ""
+}
+

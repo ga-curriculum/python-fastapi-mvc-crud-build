@@ -1,10 +1,9 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">FastAPI MVC CRUD App Build</span>
   <span class="subhead">References</span>
 </h1>
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [pipenv guide](https://pipenv.pypa.io/en/latest/)

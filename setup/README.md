@@ -1,29 +1,28 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">FastAPI MVC CRUD App Build</span>
   <span class="subhead">Setup</span>
 </h1>
 
 ## Setup
 
-tktk The below is a generic starting point for lecture setup. You may need to make adjustments to this.
+You're going to build your first FastAPI MVC CRUD app.
 
-Open your Terminal application and navigate to your <code class="filepath">~/code/ga/lectures</code> directory:
-
-```bash
-cd ~/code/ga/lectures
-```
-
-Make a new directory called <code class="filepath">tktk-module-name</code>, then enter this directory:
+Open your Terminal application and navigate to your **`~/development/lessons`** directory:
 
 ```bash
-mkdir tktk-module-name
-cd tktk-module-name
+cd ~/development/lessons
 ```
 
-Open the contents of the directory in VS Code:
+Make a new directory called **`python-fastapi-mvc-crud-app`**, then enter this directory:
+
+```bash
+mkdir python-fastapi-mvc-crud-app
+cd python-fastapi-mvc-crud-app
+pipenv install fastapi uvicorn
+```
+
+Open the contents of the directory in VSCode:
 
 ```bash
 code .
 ```
-
-tktk Are there more lecture setup steps? Don't forget to add them here.

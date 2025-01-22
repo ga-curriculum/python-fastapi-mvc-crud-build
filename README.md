@@ -1,21 +1,24 @@
 <h1>
-  <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="prefix">Python</span>
+  <span class="headline">FastAPI MVC CRUD App Build</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module focuses on the core steps of building a FastAPI CRUD application. You’ll set up your development environment, explore FastAPI, and implement essential CRUD operations using a mock database. Through this hands-on approach, you’ll practice building routes, controllers, and the key operations needed to manage resources in a FastAPI application.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                                 | Est. Delivery Time | Skills                                                                                            |
+| ---------------------------------------------------------------------- | :----------------: | ------------------------------------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                             |       1 min        | Set up the development environment.                                                               |
+| [Create the Server](./create-the-server/README.md)                     |       15 min       | Set up a FastAPI server and create the basic structure for a FastAPI MVC CRUD application         |
+| [Data Models and Controllers](./data-models-and-controllers/README.md) |       15 min       | Create mock data models for a FastAPI application and build a basic controller to serve that data |
+| [Mounting the FastAPI Router](./mounting-the-fastapi-router/README.md) |       15 min       | Mount routers in a FastAPI project to organize and manage API endpoints                           |
+| [Create Route](./create-route/README.md)                               |       15 min       | Implement the HTTP `POST` method to `create` new "tea" resources                                  |
+| [Update Route](./update-route/README.md)                               |       15 min       | Implement the HTTP `PUT` method to `update` existing "tea" resources                              |
+| [Delete Route](./delete-route/README.md)                               |       15 min       | Implement the HTTP `DELETE` method to `delete` existing "tea" resources                           |
+| **Total content**                                                      |       90 min       |                                                                                                   |
 
 ## References
 
@@ -25,32 +28,18 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
-
-### Starter code
-
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
+- Intro to FastAPI
+- Intro to Python Virtual Environments
+- MVC Architecture in Python Applications
 
 ### Solution code
 
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-app-build-solution)
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-app-build/canvas-landing-pages/apd.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-app-build/canvas-landing-pages/fallback.html)
 
 ### Resources
 
