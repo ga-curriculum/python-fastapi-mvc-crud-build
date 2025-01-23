@@ -88,12 +88,13 @@ def get_teas():
     return teas_db
 
 @router.get("/teas/{tea_id}")
-def get_tea(tea_id: int):
-    # Get a specific tea by ID
-    tea = next((tea for tea in teas_db["teas"] if tea["id"] == tea_id), None)
-    if tea is None:
-        return {"message": "Tea not found"}
-    return tea
+def get_single_tea(tea_id: int):
+    # Get tea by ID
+    for tea in teas_db['teas']:
+        if tea['id'] == tea_id:
+            return tea
+    # If tea with the given ID is not found
+    raise HTTPException(status_code=404, detail="Tea not found")
 ```
 
 - **`@router.get("/teas/{tea_id}")`**: This is a route to handle `GET` requests for a specific tea by `id`. The `{tea_id}` part in the URL is a **path parameter** that captures the ID of the tea.
