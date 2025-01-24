@@ -12,9 +12,9 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "FastAPI MVC CRUD App Build"
+  friendlyName = "FastAPI MVC CRUD Build"
   // This must match the repo name as it appears on GitHub exactly
-  name = "python-fastapi-mvc-crud-app-build"
+  name = "python-fastapi-mvc-crud-build"
   type = "Lesson"
 }
 

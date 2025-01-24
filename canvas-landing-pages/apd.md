@@ -1,6 +1,6 @@
 <h1>
   <span class="prefix">Python</span>
-  <span class="headline">FastAPI MVC CRUD App Build</span>
+  <span class="headline">FastAPI MVC CRUD Build</span>
 </h1>
 
 ## About

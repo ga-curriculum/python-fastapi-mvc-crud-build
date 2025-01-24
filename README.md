@@ -1,6 +1,6 @@
 <h1>
   <span class="prefix">Python</span>
-  <span class="headline">FastAPI MVC CRUD App Build</span>
+  <span class="headline">FastAPI MVC CRUD Build</span>
 </h1>
 
 ## About
@@ -34,12 +34,12 @@ This module focuses on the core steps of building a FastAPI CRUD application. Yo
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-app-build-solution)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-build-solution)
 
 ### Course landing pages
 
-- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-app-build/canvas-landing-pages/apd.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-app-build/canvas-landing-pages/fallback.html)
+- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-build/canvas-landing-pages/apd.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-build/canvas-landing-pages/fallback.html)
 
 ### Resources
 

@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">FastAPI MVC CRUD App Build</span>
+  <span class="headline">FastAPI MVC CRUD Build</span>
   <span class="subhead">Create the Server</span>
 </h1>
 
