@@ -56,7 +56,6 @@ Next, we’ll create a controller in the `controllers/teas.py` file. The control
 
 In FastAPI, the controller is implemented using `routers`. A router groups related endpoints together.
 
-
 For this application, we will follow this route structure in our `teas` controller:
 
 | HTTP Method | Endpoint         | Description                     |
@@ -66,7 +65,6 @@ For this application, we will follow this route structure in our `teas` controll
 | **POST**    | `/teas/`         | Add a new tea.                  |
 | **PUT**     | `/teas/{tea_id}` | Update an existing tea by ID.   |
 | **DELETE**  | `/teas/{tea_id}` | Delete a tea by ID.             |
-
 
 ## Create an index route to `GET` all `/teas/`
 
@@ -90,17 +88,17 @@ def get_teas():
 
 1. We first create an instance of `APIRouter` and assign it to the `router` variable. This is where we will define our API endpoints related to teas.
 
-```py
-router = APIRouter()
-```
+   ```py
+   router = APIRouter()
+   ```
 
 2. The `@router.get("/teas")` line tells FastAPI that we want to define a `GET` endpoint for `/teas`. This means that when a user sends a `GET` request to `/teas`, the `get_teas` function will be called.
 
-```py
-@router.get("/teas")
-def get_teas():
-    # Retrieve all teas
-    return teas_db
-```
+   ```py
+   @router.get("/teas")
+   def get_teas():
+       # Retrieve all teas
+       return teas_db
+   ```
 
 3. The get_teas function will return the data from `teas_db`, which contains all the mock tea data. Since FastAPI automatically converts the data to `JSON` format, this will be returned as a JSON response to the client.
