@@ -56,6 +56,20 @@ Next, we’ll create a controller in the `controllers/teas.py` file. The control
 
 In FastAPI, the controller is implemented using `routers`. A router groups related endpoints together.
 
+
+For this application, we will follow this route structure in our `teas` controller:
+
+| HTTP Method | Endpoint         | Description                     |
+| ----------- | ---------------- | ------------------------------- |
+| **GET**     | `/teas/`         | Retrieve all teas.              |
+| **GET**     | `/teas/{tea_id}` | Retrieve an existing tea by ID. |
+| **POST**    | `/teas/`         | Add a new tea.                  |
+| **PUT**     | `/teas/{tea_id}` | Update an existing tea by ID.   |
+| **DELETE**  | `/teas/{tea_id}` | Delete a tea by ID.             |
+
+
+## Create an index route to `GET` all `/teas/`
+
 Open `controllers/teas.py` in your editor and add the following code:
 
 ```py
