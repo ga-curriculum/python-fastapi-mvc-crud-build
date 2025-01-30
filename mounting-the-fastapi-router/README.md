@@ -26,6 +26,7 @@ app = FastAPI()
 # Include the teas router with a prefix '/api'
 app.include_router(TeasRouter, prefix="/api")
 
+
 @app.get('/')
 def home():
     # Hello world function
