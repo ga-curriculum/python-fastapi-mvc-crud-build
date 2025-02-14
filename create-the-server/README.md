@@ -86,7 +86,7 @@ Open a new terminal window while keeping the server running.
 1. Navigate to your project folder:
 
 ```bash
-cd ~/development/lessons/practice-fastapi-crud-app
+cd ~/lessons/practice-fastapi-crud-app
 ```
 
 2. Create directories for models and controllers:

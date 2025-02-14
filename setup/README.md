@@ -10,10 +10,10 @@ In this lesson, you'll start building a FastAPI MVC CRUD application. Each subse
 ### 1: Create the project directory
 
 1. Open your terminal application.
-2. Navigate to your **`~/development/lessons`** directory:
+2. Navigate to your **`~/lessons`** directory:
 
    ```
-   cd ~/development/lessons
+   cd ~/lessons
    ```
 
 3. Create a new directory called **`python-fastapi-mvc-crud-build`** and navigate into it:
