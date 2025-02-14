@@ -83,11 +83,7 @@ To build an MVC application, you need to organize your code into folders for **m
 
 Open a new terminal window while keeping the server running.
 
-1. Navigate to your project folder:
-
-```bash
-cd ~/lessons/practice-fastapi-crud-app
-```
+1. Navigate to the *root* directory of your project.
 
 2. Create directories for models and controllers:
 
