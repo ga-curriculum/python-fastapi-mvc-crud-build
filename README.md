@@ -34,7 +34,7 @@ This module focuses on the core steps of building a FastAPI CRUD application. Yo
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-build-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/python-fastapi-mvc-crud-build-solution)
 
 ### Course landing pages
 
